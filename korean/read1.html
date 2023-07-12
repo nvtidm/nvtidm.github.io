@@ -47,7 +47,7 @@
 
         // Tra từ trên Naver Dictionary
         function searchOnNaver(word) {
-            var url = 'https://dict.naver.com/search.nhn?dicQuery=' + encodeURIComponent(word);
+            var url = 'https://korean.dict.naver.com/kovidict/#/search?query=' + encodeURIComponent(word);
             var popup = window.open(url, 'Naver Dictionary', 'width=800,height=600');
             if (window.focus) {
                 popup.focus();
