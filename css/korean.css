@@ -128,19 +128,17 @@ h3, p {
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #333333;
-  color: #ffffff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 110%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 12px;
+    position: absolute;
+    border-radius: 4px;
+    left: 25%;
+    top: -25px;
+    transform: translateX(-50%);
+    padding: .5rem;
+    color: #fff;
+    background: #588c7e;
+    font-size: 18px;
+    line-height: 1;
+    z-index: 100;
 }
 
 .tooltip .tooltiptext::after {
