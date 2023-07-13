@@ -2,74 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/css/koreanreader.css">
+    <link rel="stylesheet" href="/css/korean.css">
 </head>
 <body>
-    <header>
-        <h1>Hangul Reader</h1>
-    </header>
-
-    <div class="container">
-        <div class="text-area" onmouseup="readSelectedText(event)">
-            <p>
-                여기에 텍스트를 입력하세요.
-                Bạn có thể bôi đen văn bản và trình duyệt sẽ tự động đọc nó.
-            </p>
-            <p>
-                예시: 안녕하세요. 저는 한글을 배우고 있습니다.
-                Bôi đen và thử bấm chuột phải để nghe văn bản.
-            </p>
-            <p>
-                <span class="highlight" data-tooltip="Đây là từ mới 1" onclick="searchOnNaver('Từ mới 1')">Từ mới 1</span> là gì?
-            </p>
-            <p>
-                <span class="highlight" data-tooltip="Đây là từ mới 2" onclick="searchOnNaver('Từ mới 2')">Từ mới 2</span> có ý nghĩa gì?
-            </p>
-        </div>
+   <div class="regularFont storyChapter">
+    <div class="storyChapterTitle">
+        <h3>idm korean</h3>
     </div>
-
-    <footer>
-        <p>&copy; 2023 Hangul Reader. All rights reserved.</p>
-    </footer>
-
-    <script>
-        // Đảm bảo giọng đọc có sẵn khi trang đã tải hoàn chỉnh
-        window.addEventListener('DOMContentLoaded', function() {
-            if ('speechSynthesis' in window) {
-                window.speechSynthesis.onvoiceschanged = function() {
-                    var voices = window.speechSynthesis.getVoices();
-                    console.log(voices);
-                };
-            } else {
-                alert('Trình duyệt của bạn không hỗ trợ chức năng đọc văn bản.');
-            }
-        });
-
-        // Tra từ trên Naver Dictionary
-        function searchOnNaver(word) {
-            var url = 'https://korean.dict.naver.com/kovidict/#/search?query=' + encodeURIComponent(word);
-            var popup = window.open(url, 'Naver Dictionary', 'width=800,height=600');
-            if (window.focus) {
-                popup.focus();
-            }
-        }
-
-        // Đọc văn bản bôi đen
-        function readSelectedText(event) {
-            var selectedText = window.getSelection().toString();
-            if (selectedText !== '') {
-                var speech = new SpeechSynthesisUtterance(selectedText);
-                if ('speechSynthesis' in window) {
-                    var voices = window.speechSynthesis.getVoices();
-                    speech.voice = voices.find(function(voice) {
-                        return voice.lang === 'ko-KR';
-                    });
-                    window.speechSynthesis.speak(speech);
-                } else {
-                    alert('Trình duyệt của bạn không hỗ trợ chức năng đọc văn bản.');
-                }
-            }
-        }
-    </script>
+    <div class="storyText">
+        <p class="regularFont "><span class="koreanText">옛날 어느 할아버지와 할머니가 살고 있었다. </span><span class="engText ">Once upon a time, there lived an old man and an old woman.</span><span class="koreanText">할아버지와 할머니에게는 자식이 없었다. </span><span class="engText hideEng">The old man and the old woman had no children.</span><span class="koreanText">그 대신에 개 한 마리와 고양이 한 마리를 자식처럼 사랑하며 키웠다. </span><span class="engText hideEng">Instead, they raised a dog and a cat and loved them like their own children.</span><span class="koreanText">할아버지는 매일 강에서 낚시를 했다. </span><span class="engText hideEng">Every day the old man went fishing in the river.</span><span class="koreanText">어느 날 할아버지가 낚싯대를 가지고 강으로 갔다. </span><span class="engText hideEng">One day the old man took his fishing rod to the river.</span><span class="koreanText">점심때가 되었는데 물고기가 한 마리도 잡히지 않았다. </span><span class="engText hideEng">Although it was lunchtime, he hadn't even caught a single fish.</span><span class="koreanText">"이상하다. 물고기가 한 마리도 없네." </span><span class="engText hideEng">"That's strange. There's not even a single fish."</span><span class="koreanText">할아버지는 낚싯대를 거두려고 일어났다. </span><span class="engText hideEng">The old man was about to stand up to collect his fishing rod.</span><span class="koreanText">그때 낚싯줄이 움직였다. </span><span class="engText hideEng">Then the fishing line moved.</span><span class="koreanText">할아버지는 빨리 낚싯대를 잡아당겼다. </span><span class="engText hideEng">The old man quickly pulled in the rod.</span><span class="koreanText">그 순간 할아버지는 앞을 볼 수가 없었다. </span><span class="engText hideEng">At that moment the old man couldn't see in front of him.</span><span class="koreanText">낚시에 걸린 것은 <span class="toolTip"><span class="tooltipWrapper">황금</span> </span>잉어였다. </span><span class="engText hideEng">Hanging on the fishing rod was a golden carp.</span><span class="koreanText">그런데 <span class="toolTip"><span class="tooltipWrapper">황금</span> </span>잉어를 자세히 들여다보던 할아버지는 깜짝 놀랐다. </span><span class="engText hideEng">Then he took a close look at the golden carp and he was surprised.</span><span class="koreanText">잉어의 눈에서 눈물이 흐르고 있었기 때문이었다. </span><span class="engText hideEng">It was because the carp had tears pouring from his eyes.</span><span class="koreanText">할아버지는 잉어를 강물에 놓아주었다. </span><span class="engText hideEng">The old man released the carp into the river.</span><span class="koreanText">할아버지는 잉어에게 말했다. </span><span class="engText hideEng">The old man spoke to the carp.</span><span class="koreanText">"말도 못하는 네가 눈물을 흘리니까 잡지 못하겠구나. </span><span class="engText hideEng">"Although you cannot speak, because you cried I couldn't catch you.</span><span class="koreanText">멀리멀리 잘 가라. 다시는 잡히지 마라." </span><span class="engText hideEng">Go far, far away. Don't get caught again."</span><span class="koreanText">할아버지는 집으로 돌아왔다. </span><span class="engText hideEng">The old man went back to his house. </span></p>
+    </div>
+</div>
 </body>
 </html>
