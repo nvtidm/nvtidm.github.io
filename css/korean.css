@@ -120,10 +120,8 @@ h3, p {
 
 /*--------------CARD--------------*/
 .tooltip {
-  position: relative;
-  display: inline-block;
-  color: #4285f4;
-  text-decoration: underline;
+    color: #588c7e;
+    text-decoration: underline;
 }
 
 .tooltip .tooltiptext {
