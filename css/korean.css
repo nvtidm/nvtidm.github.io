@@ -20,6 +20,7 @@
 body {
     padding: 0;
     margin: 0
+    font-size: 18px;
 }
 h3, p {
     padding: 0;
@@ -151,7 +152,7 @@ h3, p {
   transform: translateX(-50%);
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #333333 transparent;
+  border-color: transparent transparent #588c7e transparent;
 }
 
 .tooltip:hover .tooltiptext {
