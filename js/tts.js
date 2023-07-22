@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
             document.addEventListener('mouseup', getSelectedText); // Sự kiện khi người dùng bôi đen văn bản
             document.addEventListener('keyup', getSelectedText); // Sự kiện khi người dùng sử dụng phím mũi tên để bôi đen văn bản
 
+            document.addEventListener('touchend', speakSelectedText); // Phát âm IOS
+            
             document.addEventListener('mouseup', speakSelectedText); // Phát âm văn bản đã bôi đen
             document.addEventListener('keyup', function(event) {
                 if (event.key === 'Enter') {
