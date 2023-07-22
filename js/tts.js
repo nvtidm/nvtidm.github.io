@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             document.addEventListener('mouseup', getSelectedText); // Sự kiện khi người dùng bôi đen văn bản
             document.addEventListener('keyup', getSelectedText); // Sự kiện khi người dùng sử dụng phím mũi tên để bôi đen văn bản
+            document.addEventListener('touchend', getSelectedText); // Sự kiện khi người dùng sử dụng touch để bôi đen văn bản
 
             document.addEventListener('touchend', speakSelectedText); // Phát âm IOS
             
