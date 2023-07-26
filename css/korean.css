@@ -124,8 +124,6 @@ h3, p {
     display: inline-block;
     position: relative;
     transition: all .3s ease;
-    text-decoration: underline;
-    color: #588c7e;
 }
 
 .tooltip .tooltiptext {
@@ -157,4 +155,9 @@ h3, p {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.tooltip:hover {
+  text-decoration: underline;
+  color: #588c7e;
 }
