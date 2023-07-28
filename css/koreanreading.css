@@ -49,6 +49,7 @@ a {
   top: 150%;
   left: 50%;
   margin-left: -60px;
+  font-size: 12px;
 }
 
 .tooltip .tooltiptext::after {
