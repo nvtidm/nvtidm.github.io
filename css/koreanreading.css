@@ -1,16 +1,16 @@
-/* Media query cho thiết bị có kích thước màn hình nhỏ */
-@media (max-width: 600px) {          
-  body {        
-    margin: 10px;
-  }     
-}
-
 body {
 font-family: 'Arial', sans-serif;
 line-height: 1.6;
 margin: 20px;
 max-width: 800px;
 margin: 0 auto;
+}
+
+/* Media query cho thiết bị có kích thước màn hình nhỏ */
+@media (max-width: 800px) {          
+  body {        
+    margin: 10px;
+  }     
 }
 
 h1 {
@@ -32,3 +32,40 @@ a {
   }
 
 /* Tooltip */
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:hover {
+  text-decoration: underline;
+}
