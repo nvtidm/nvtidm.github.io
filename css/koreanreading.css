@@ -10,7 +10,10 @@ margin: 0 auto;
 @media (max-width: 800px) {          
   body {        
     margin: 10px;
-  }     
+  }
+	.footer-space {
+	height: 80px; /* Chiều cao của trình phát video */
+}
 }
 
 h1 {
