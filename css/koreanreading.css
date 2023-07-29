@@ -119,7 +119,7 @@ a {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 60px; /* Chiều cao của audio-player-wrapper */
+      height: 70px; /* Chiều cao của audio-player-wrapper */
     }
 
     /* Thêm style cho phần audio controls */
