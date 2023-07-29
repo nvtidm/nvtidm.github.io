@@ -136,3 +136,7 @@ i:hover {
     .audio-controls button {
       margin: 5px;
     }
+
+.footer-space {
+	height: 80px; /* Chiều cao của trình phát video */
+}
