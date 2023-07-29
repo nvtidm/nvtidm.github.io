@@ -1,33 +1,33 @@
 body {
-font-family: 'Arial', sans-serif;
-line-height: 1.6;
-margin: 20px;
-max-width: 800px;
-margin: 0 auto;
+    font - family: 'Arial', sans - serif;
+    line - height: 1.6;
+    margin: 20 px;
+    max - width: 800 px;
+    margin: 0 auto;
 }
 
 /* Media query cho thiết bị có kích thước màn hình nhỏ */
-@media (max-width: 800px) {          
-  body {        
-    margin: 10px;
-  }     
+@media(max - width: 800 px) {
+    body {
+        margin: 10 px;
+    }
 }
 
 h1 {
-  font-size: 28px;
+    font - size: 28 px;
 }
 
 p {
-  font-size: 18px;
-  }
+    font - size: 18 px;
+}
 
 img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-  }
+    max - width: 100 % ;
+    height: auto;
+    margin - bottom: 10 px;
+}
 a {
-  color: #007bff;
+    color: #007bff;
   text-decoration: none;
   }
 
@@ -40,87 +40,88 @@ a {
   visibility: hidden;
   width: 120px;
   background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 150%;
-  left: 50%;
-  margin-left: -60px;
-  font-size: 12px;
+  color: # fff;
+    text - align: center;
+    border - radius: 6 px;
+    padding: 5 px 0;
+    position: absolute;
+    z - index: 1;
+    top: 150 % ;
+    left: 50 % ;
+    margin - left: -60 px;
+    font - size: 12 px;
 }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-}
+.tooltip.tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100 % ;
+        left: 50 % ;
+        margin - left: -5 px;
+        border - width: 5 px;
+        border - style: solid;
+        border - color: transparent transparent black transparent;
+    }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
+    .tooltip: hover.tooltiptext {
+        visibility: visible;
+    }
 
-.tooltip:hover {
-  text-decoration: underline;
-}
+    .tooltip: hover {
+        text - decoration: underline;
+    }
 
 /* Player*/
-    label {
-      font-weight: bold;
+label {
+    font - weight: bold;
+}
+
+input {
+    width: 50 px;
+}
+
+button {
+    padding: 8 px 12 px;
+    font - size: 16 px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#
+loopButton {
+    color: #007bff;
     }
 
-    input {
-      width: 50px;
-    }
+    # loopButton.isLooping {
+            color: red;
+        }
 
-    button {
-      padding: 8px 12px;
-      font-size: 16px;
-      cursor: pointer;
-      background: none;
-      border: none;
-    }
+        /* Phần trình phát nhạc */
+        .audio - player - container {
+            width: 100 % ;
+            overflow - x: auto;
+        }
 
-    #loopButton {
-      color: #007bff;
-    }
+        .audio - player {
+            width: 100 % ;
+        }
 
-    #loopButton.isLooping {
-      color: red;
-    }
+        /* Đưa trình phát nhạc vào cuối trang và giữ vị trí cố định */
+        .audio - player - wrapper {
+            position: fixed;
 
-    /* Phần trình phát nhạc */
-    .audio-player-container {
-      width: 100%;
-      overflow-x: auto;
-    }
+        }
 
-    .audio-player {
-      width: 100%;
-    }
+        /* Thêm style cho phần audio controls */
+        .audio - controls {
+            display: flex;
+            align - items: center;
+            flex - grow: 1; /* Cho phép các ô input và nút lặp chiếm toàn bộ chiều rộng còn lại */
+        }
 
-    /* Đưa trình phát nhạc vào cuối trang và giữ vị trí cố định */
-    .audio-player-wrapper {
- 
- 
-    }
-
-    /* Thêm style cho phần audio controls */
-    .audio-controls {
-      display: flex;
-      align-items: center;
-      flex-grow: 1; /* Cho phép các ô input và nút lặp chiếm toàn bộ chiều rộng còn lại */
-    }
-
-    .audio-controls label,
-    .audio-controls input,
-    .audio-controls button {
-      margin: 5px;
+        .audio - controls label,
+    .audio - controls input,
+    .audio - controls button {
+        margin: 5 px;
     }
