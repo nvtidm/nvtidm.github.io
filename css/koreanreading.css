@@ -122,7 +122,6 @@ i:hover {
       box-sizing: border-box;
       align-items: center;
       justify-content: center;
-	    max-height: 100px;
     }
 
     /* Thêm style cho phần audio controls */
@@ -139,5 +138,5 @@ i:hover {
     }
 
 .footer-space {
-	height: 100px; /* Chiều cao của trình phát video */
+	height: 200px; /* Chiều cao của trình phát video */
 }
