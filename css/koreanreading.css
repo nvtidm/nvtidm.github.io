@@ -32,11 +32,16 @@ a {
   }
 
 /* Tooltip */
-.tooltip {
+i {
   position: relative;
+	font-style: normal;
 }
 
-.tooltip .tooltiptext {
+u {
+	text-decoration: none;
+}
+
+i > u {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -52,7 +57,7 @@ a {
   font-size: 12px;
 }
 
-.tooltip .tooltiptext::after {
+i > u::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -63,11 +68,11 @@ a {
   border-color: transparent transparent black transparent;
 }
 
-.tooltip:hover .tooltiptext {
+i:hover > u {
   visibility: visible;
 }
 
-.tooltip:hover {
+i:hover {
   text-decoration: underline;
 }
 
