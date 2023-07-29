@@ -29,6 +29,12 @@ img {
   height: auto;
   margin-bottom: 10px;
   }
+video {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  }
+
 a {
   color: #007bff;
   text-decoration: none;
