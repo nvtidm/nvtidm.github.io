@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
     <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="https://nvtidm.github.io/js/plauaudio.js"></script>
 </head>
 
 <body>
@@ -51,6 +53,26 @@
         <li>Danh sách 2</li>
         <li>Danh sách 3</li>
     </ol>
+
+    <!-- Play Audio -->
+    <div class="audio-player-wrapper">
+        <div class="audio-player-container">
+            <audio id="audioPlayer" controls class="audio-player">
+                <!-- Đường dẫn URL tới tệp âm thanh -->
+                <source src="https://bloghanquoc.com/wp-content/uploads/2018/06/01.mp3" type="audio/mpeg">
+                Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+            </audio>
+        </div>
+        <!-- Các ô input để nhập thời gian A và B -->
+        <div class="audio-controls">
+            <label for="pointA">Đoạn A (giây):</label>
+                <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+                <label for="pointB">Đoạn B (giây):</label>
+            <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+            <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+            </div>
+      </div>
+
 </body>
 
 </html>
