@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+
+<body>
+    <h1>여러분은 직업이 있습니까? 무슨 일을합니까?</h1>
+    
+    <img src="/korean/yonsei/media/yonsei-005.jpg" alt="korean yonsei">
+    
+    <p>
+      우리 하숙집에 경희 씨, 토모미 씨, 마이클 씨가 있습니다.<br>
+      경희 씨는 <i>무역회사<u>công ty thương mại</u></i>에 다닙니다.<br>
+      사무실이 여의도에 있습니다.<br>
+      토모미 씨는 은행에서 일합니다.<br>
+      은행은 신촌에 있습니다.<br>
+      마이클 씨는 기자입니다.<br>
+      신문사가 종로에 있습니다.<br>
+      모두 열심히 일합니다.
+    </p>
+
+    <!-- Play Audio -->
+    <div class="audio-player-wrapper">
+        <div class="audio-player-container">
+            <audio id="audioPlayer" controls class="audio-player">
+                <!-- Đường dẫn URL tới tệp âm thanh -->
+                <source src="/korean/yonsei/media/yonsei-005.mp3" type="audio/mpeg">
+                Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+            </audio>
+        </div>
+        <!-- Các ô input để nhập thời gian A và B -->
+        <div class="audio-controls">
+            <label for="pointA">A</label>
+                <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+                <label for="pointB">B</label>
+            <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+            <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+            </div>
+      </div>
+    <!-- Khoảng cách trống bên dưới chân trang -->
+     <div class="footer-space"></div>
+</body>
+
+     <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+   
+</html>
