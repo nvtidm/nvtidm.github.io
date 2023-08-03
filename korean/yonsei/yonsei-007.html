@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+
+<body>
+    <h1>여러분 고향은 어디입니까?</h1>
+    
+    <img src="/korean/yonsei/media/yonsei-007.jpg" alt="korean yonsei">
+    
+    <p>
+      토모미 씨, 안녕하십니까?<br>
+      저는 지금 제주도에 있습니다.<br>
+      제주도는 제 고향입니다.<br>
+      제주도에는 <i>한라산<u>Hallasan là một núi lửa hình khiên trên đảo Jeju và là ngọn núi cao nhất tại Hàn Quốc.</i></u>과 바다가 있습니다.<br>
+      공기도 좋고 경치도 아름답습니다.<br>
+      귤도 참 맛있습니다.<br>
+      토모미 씨, 요즘도 많이 바쁘십니까?<br>
+  방학 잘 보내십시오.<br>
+  <span style="text-align:right;">12월 20일</span>
+  <span style="text-align:right;">김정우</span>
+</p>
+
+    <!-- Play Audio -->
+    <div class="audio-player-wrapper">
+        <div class="audio-player-container">
+            <audio id="audioPlayer" controls class="audio-player">
+                <!-- Đường dẫn URL tới tệp âm thanh -->
+                <source src="/korean/yonsei/media/yonsei-007.mp3" type="audio/mpeg">
+                Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+            </audio>
+        </div>
+        <!-- Các ô input để nhập thời gian A và B -->
+        <div class="audio-controls">
+            <label for="pointA">A</label>
+                <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+                <label for="pointB">B</label>
+            <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+            <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+            </div>
+      </div>
+    <!-- Khoảng cách trống bên dưới chân trang -->
+     <div class="footer-space"></div>
+</body>
+
+     <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+   
+</html>
