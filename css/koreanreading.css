@@ -149,3 +149,49 @@ i:hover {
 .footer-space {
 	height: 150px; /* Chiều cao của trình phát video */
 }
+
+/* Higlight tooltip */
+pi {
+  position: relative;
+  font-style: normal;
+  color: #0A6EBD;
+}
+
+pu {
+	text-decoration: none;
+}
+
+pi > pu {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 12px;
+}
+
+pi > pu::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+pi:hover > pu {
+  visibility: visible;
+}
+
+pi:hover {
+  text-decoration: underline;
+}
