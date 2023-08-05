@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 무슨 음식을 좋아합니까?</h1>
+
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-009.jpg" alt="korean yonsei">
+    <p>
+      유키 씨와 저는 한식을 <pi>좋아합니다<pu>조아합니다/<br>조하합니다</pu></pi>.<br>
+      회사 근처 한식집에 자주 갑니다.<br>
+      그 한식집에는 불고기, 냉면, 김치찌개, 순두부찌개, 생선찌개, 비빔밥, 갈비탕이 있습니다.<br>
+      김치찌개하고 비빔밥은 조금 맵습니다.<br>
+      유키 씨는 고기를 <pi>좋아합니다<pu>조아합니다/<br>조하합니다</pu></pi>. 생선은 싫어합니다.<br>
+      그래서 유키 씨는 갈비탕을 자주 먹습니다.<br>
+      저는 순두부찌개를 자주 먹습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-009.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
