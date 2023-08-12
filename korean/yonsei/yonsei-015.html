@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 일기를 씁니까? 일기에 무엇을 씁니까?</h1>
+
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-015.jpg" alt="korean yonsei">
+    <p>
+      4월 20일 일요일<br>
+      오늘은 좀 늦게 일어났습니다.<br>
+      우유를 마시고 집 근처 학교 운동장에 갔습니다.<br>
+      거기서 30분쯤 달렸습니다.<br>
+      집에서 샤워를 하고 음악을 들었습니다.<br>
+      1시에 백화점 앞에서 여자 친구를 만났습니다.<br>
+      백화점에는 사람들이 많았습니다.<br>
+      우리는 백화점 9층 식당에서 냉면을 먹고, 옷을 구경했습니다.<br>
+      여자 친구는 치마와 구두를 샀습니다.<br>
+      치마가 좀 비쌌지만 아주 예뻤습니다.<br>
+      저는 백화점 지하에서 딸기와 <i>오렌지<u><img src="https://i.namu.wiki/i/wz-PeKs0VManfCgTB7AUErBGdoWfri3QZHNkaQcmDPHTuRrFGUUYVW5rI5HclI8d6U98UgTaCgWJISsPpSGinHXuK4PbghWa_anU6Gh7HjHGdEhVJmU8r68SkBDJyzRRlmhRgXTnNSzpmEpe5Cf4zg.webp" alt="quả cam"></u></i>를 샀습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-015.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
