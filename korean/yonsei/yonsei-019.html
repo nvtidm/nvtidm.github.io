@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 어디에서 물건을 삽니까?</h1>
+
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-019.jpg" alt="korean yonsei">
+    <p>
+      저는 지난 주말에 옷을 사러 동대문시장에 갔습니다.<br>
+      동대문시장에는 옷가게가 많았습니다.<br>
+      먼저 까만색 코트를 하나 샀습니다.<br>
+      코트는 8만 5천원이었습니다.<br>
+      조금 비쌌습니다.<br>
+      그리고 모자를 파는 가게에도 갔습니다.<br>
+      따뜻한 <i>털모자<u><img src="https://cdn.mkhealth.co.kr/news/photo/202101/51752_52367_397.jpg"></u></i>와 장갑을 샀습니다.<br>
+      모자는 5천원이고, 장갑은 8천원이었습니다.<br>
+      값이 비싸지 않았습니다.<br>
+      날씨가 좀 추웠지만 기분은 좋았습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-019.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
