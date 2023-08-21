@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 언제 버스를 탑니까?</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-022.jpg" alt="korean yonsei">
+    
+    <p>
+      지난 수요일에 우리는 그림을 보러 인사동에 갔습니다.
+      학교 앞 버스 정류장에서 272번 버스를 탔습니다.
+      "아저씨, 이 버스 인사동에 가지요? 인사동을 잘 모르니까 좀 가르쳐 주세요."
+      "네, 안내방송을 하니까 걱정하지 마세요."
+      우리는 버스에 <i>빈 자리<u>ghế trống</u></i>가 있어서 그 앞으로 갔습니다.
+      그렇지만 그 자리는 <i>노약자석<u>chỗ dành cho người già, yếu</u></i>이어서 앉지 않았습니다.
+      조금 후에 <i>안내방송이<u>thông báo hướng dẫn</u></i> 나왔습니다.
+      “다음 정류장은 인사동입니다. 내리실 분은 미리 문 쪽으로 나오십시오."
+      우리는 버스에서 내렸습니다.
+      학교에서 인사동까지 버스로 15분쯤 걸렸습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-022.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
