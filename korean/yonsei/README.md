@@ -24,3 +24,4 @@
 22. [버스](https://nvtidm.github.io/korean/yonsei/yonsei-022.html)
 23. [택시](https://nvtidm.github.io/korean/yonsei/yonsei-023.html)
 24. [휴대전화](https://nvtidm.github.io/korean/yonsei/yonsei-024.html)
+25. [파티 초대](https://nvtidm.github.io/korean/yonsei/yonsei-025.html)
