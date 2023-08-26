@@ -25,3 +25,4 @@
 23. [택시](https://nvtidm.github.io/korean/yonsei/yonsei-023.html)
 24. [휴대전화](https://nvtidm.github.io/korean/yonsei/yonsei-024.html)
 25. [파티 초대](https://nvtidm.github.io/korean/yonsei/yonsei-025.html)
+26. [약속 취소](https://nvtidm.github.io/korean/yonsei/yonsei-026.html)
