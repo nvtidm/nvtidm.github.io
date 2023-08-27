@@ -26,3 +26,4 @@
 24. [휴대전화](https://nvtidm.github.io/korean/yonsei/yonsei-024.html)
 25. [파티 초대](https://nvtidm.github.io/korean/yonsei/yonsei-025.html)
 26. [약속 취소](https://nvtidm.github.io/korean/yonsei/yonsei-026.html)
+27. [한국어와 전화](https://nvtidm.github.io/korean/yonsei/yonsei-027.html)
