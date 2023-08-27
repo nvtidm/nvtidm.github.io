@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 한국말로 전화를 합니까?</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-027.jpg" alt="korean yonsei">
+    
+    <p>
+      미국에서 온 진섭 씨는 요즘 한국말을 배웁니다.<br>
+      이제는 한국말을 좀 합니다.<br>
+      그러나 전화가 오면 <i>겁이 납니다<u>sợ hãi, sợ sệt</u></i>.<br>
+      듣기도 어렵고 말하기도 어렵습니다.<br>
+      지난 주 토요일에 진섭 씨는 하숙집에 혼자 있었습니다.<br>
+      <i>“따르릉 따르릉"<u>mô phỏng tiếng chuông điện thoại kêu</u></i><br>
+      진섭 씨는 겁이 났지만 전화를 받았습니다.<br>
+      "거기가 중국집이지요?"<br>
+      "네? 여보세요? 몇 번에 <i>거셨습니까<u>걸다 gọi điện</u></i>?"<br>
+      "거기가 중국집 아니에요?"<br>
+      "전화 잘못 거셨습니다."<br>
+      "아, 정말 죄송합니다."<br>
+      "아니요, 괜찮습니다.”<br>
+      <i>전화를 끊고<u>kết thúc cuộc gọi</u></i> 진섭 씨는 전화를 잘 받아서 기뻤습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-027.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
