@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 어떤 날씨가 좋습니까?</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-029.jpg" alt="korean yonsei">
+    <img src="/korean/yonsei/media/yonsei-029-1.jpg" alt="korean yonsei">
+    
+    <p>
+      요즘 날마다 <i>무덥습니다<u>oi bức, nóng bức</u></i>.
+      <i>물놀이 사고<u>đuối nước</u></i>도 많습니다.<br>
+      조심하십시오.<br>
+      오늘 날씨입니다.<br>
+      오늘은 날씨가 맑겠습니다.<br>
+      하지만 낮에는 구름이 조금 끼겠습니다.<br>
+      아침기온은 25도이고 낮 <i>최고기온<u>nhiệt độ cao nhất</u></i>은 33도입니다.<br>
+      내일은 흐리고 오후에 <i>소나기<u>mưa rào</u></i>가 오겠습니다.<br>
+      아침기온은 23도이고 낮 최고기온은 31도입니다.<br>
+      날씨였습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-029.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
