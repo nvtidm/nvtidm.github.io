@@ -28,3 +28,4 @@
 26. [약속 취소](https://nvtidm.github.io/korean/yonsei/yonsei-026.html)
 27. [한국어와 전화](https://nvtidm.github.io/korean/yonsei/yonsei-027.html)
 28. [계절](https://nvtidm.github.io/korean/yonsei/yonsei-028.html)
+29. [일기예보](https://nvtidm.github.io/korean/yonsei/yonsei-029.html)
