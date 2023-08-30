@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>오늘 날씨는 어떻습니까?</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-030.jpg" alt="korean yonsei">
+    
+    <p>
+      지난 여름은 무척 더웠습니다.<br>
+      우리 가족은 <i>동해안<u>bờ biển Đông</u></i>으로 여행을 갔습니다.<br>
+      여행을 떠나는 날 아침 서울은 바람도 불고 구름도 많이 꼈습니다.<br>
+      금방 비가 올 것 같았습니다.<br>
+      모두들 걱정을 했습니다.<br>
+      "오랜만에 함께 떠나는 여행인데..."<br>
+      동해안까지는 자동차로 3시간쯤 걸렸습니다.<br>
+      동해안에는 비가 내리지 않았습니다.<br>
+      바다와 하늘이 모두 파랗고 깨끗했습니다.<br>
+      우리 가족은 3박 4일 동안 즐겁게 지냈습니다.<br>
+      날씨가 좋아서 바다에서 수영도 하고 배도 탔습니다.<br>
+      이야기도 많이 하고 사진도 많이 찍었습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-030.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
