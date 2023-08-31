@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 겨울에 무엇을 합니까?</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-031.jpg" alt="korean yonsei">
+    
+    <p>
+      우리 고향에는 겨울에도 눈이 오지 않습니다.<br>
+      그러나 서울은 겨울에 눈이 옵니다.<br>
+      저는 이렇게 하얀 눈이 오는 겨울이 좋습니다.<br>
+      겨울에는 제가 좋아하는 스키도 탈 수 있습니다.<br>
+      지난 겨울에 처음 스키장에 갔습니다.<br>
+      처음에는 정말 많이 넘어졌지만 이제는 스키 타기가 어렵지 않습니다.<br>
+      제가 가는 스키장은 서울 근처에 있습니다.<br>
+      그곳에는 즐겁게 스키를 타는 사람이 많습니다.<br>
+      가끔 스키 타는 것이 무서워서 그 자리에 <i>가만히<u>ở yên (lặng)</u></i> 있는 사람이 있습니다.<br>
+      그리고 스키를 타지 않고 <i>눈싸움<u>trò ném tuyết</u></i>만 하는 사람도 있습니다.<br>
+      모두가 웃는 얼굴입니다.<br>
+      이렇게 웃는 얼굴을 보면 저도 즐겁습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-031.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
