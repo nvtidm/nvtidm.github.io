@@ -30,3 +30,4 @@
 28. [계절](https://nvtidm.github.io/korean/yonsei/yonsei-028.html)
 29. [일기예보](https://nvtidm.github.io/korean/yonsei/yonsei-029.html)
 30. [날씨와 여행](https://nvtidm.github.io/korean/yonsei/yonsei-030.html)
+31. [스키](https://nvtidm.github.io/korean/yonsei/yonsei-031.html)
