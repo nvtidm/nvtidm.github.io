@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>여러분은 여행을 좋아합니까? 한국에서 어디를 여행했습니까?</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-032.jpg" alt="korean yonsei">
+    
+    <p>
+      저는 이번 주말에 친구들과 같이 부산에 가려고 합니다.<br>
+      부산에는 바다가 있어서 여름에 부산으로 휴가를 가는 사람이 많습니다.<br>
+      그래서 우리는 일주일 전에 기차표를 예매했습니다.<br>
+      토요일 오전 8시표를 샀습니다.<br>
+      이 기차는 오전 10시 50분에 부산역에 도착합니다.<br>
+      우리는 부산역에서 바로 <i>해운대 해수욕장<u>bãi biểnHaeundae</u></i>에 가겠습니다.<br>
+      거기에서 수영도 하고 <i>수족관<u>thủy cung, bảo tàng sinh vật biển</u></i>도 구경하고 싶습니다.<br>
+      그리고 잠은 바닷가 근처 콘도에서 자려고 합니다.<br>
+      다음날에는 <i>자갈치 시장<u>chợ Jagalchi</u></i>을 구경하고 <i>생선회<u>gỏi cá</u></i>와 매운탕을 먹겠습니다.<br>
+      오후에는 가까운 산에 올라가서 <i>절<u>chùa</u></i>도 구경하겠습니다.<br>
+      그리고 오후 5시에 출발하는 기차로 서울에 돌아오려고 합니다.<br>
+      이번 여행은 아주 재미있을 것 같습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-032.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
