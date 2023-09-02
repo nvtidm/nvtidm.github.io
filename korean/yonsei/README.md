@@ -32,3 +32,4 @@
 30. [날씨와 여행](https://nvtidm.github.io/korean/yonsei/yonsei-030.html)
 31. [스키](https://nvtidm.github.io/korean/yonsei/yonsei-031.html)
 32. [부산 여행](https://nvtidm.github.io/korean/yonsei/yonsei-032.html)
+33. [운동](https://nvtidm.github.io/korean/yonsei/yonsei-033.html)
