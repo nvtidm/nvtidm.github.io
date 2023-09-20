@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>나의 꿈</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-01.jpg" alt="korean yonsei">
+    
+    <p>
+      저는 1987년에 부산에서 태어났습니다. 부산은 바다와 가까워서 저는 자주 바다에 갔습니다.<br>
+      '저 넓은 바다 밖은 어떤 곳일까?'<br>
+      바다는 저에게 꿈을 주었습니다.
+      저는 여러 나라의 이야기를 알고 싶어서 책을 많이 읽었습니다.
+      그리고 책에서 읽은 나라들을 모두 여행하고 싶었습니다.
+      대학교에 다닐 때는 아르바이트를 해서 모은 돈으로 여행을 할 수 있었습니다.
+      저는 춥고 눈이 많이 오는 나라와 따뜻하고 꽃이 피는 나라, 조용한 시골과 복잡한 도시 등 세계 여러 곳을 여행했습니다.
+      다른 나라에 가면 날씨도 다르고 문화도 다르기 때문에 여행은 더 즐거웠습니다.<br>
+      이제 저는 좀 더 넓은 곳에서 일할 준비가 됐습니다.
+      세계 어디든지 갈 수 있습니다. <i>연세 여행사<u>Công ty du lịch Yonsei</u></i>에서 저에게 기회를 주시면 열심히 일할 것을 약속 드리겠습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-01.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
