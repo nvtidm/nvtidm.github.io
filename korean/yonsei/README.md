@@ -37,3 +37,7 @@
 33. [운동](https://nvtidm.github.io/korean/yonsei/yonsei-033.html)
 34. [여행과 사진](https://nvtidm.github.io/korean/yonsei/yonsei-034.html)
 35. [엽서](https://nvtidm.github.io/korean/yonsei/yonsei-035.html)
+
+## YONSEI 2
+
+1. [나의 꿈](https://nvtidm.github.io/korean/yonsei/yonsei-2-01.html)
