@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>아름다운 우리 학교</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-02.jpg" alt="korean yonsei">
+    
+    <p>
+      저는 한국에 온 지 두 달 됐습니다.
+      제가 다니는 학교는 한국에서 유명한 대학교 중의 하나입니다.
+      우리 학교는 역사가 오래됐습니다. 그리고 <i>캠퍼스<u>khuôn viên trường</u></i>도 넓고 아름답습니다.
+      학교 안에는 도서관과 학생회관과 병원이 있습니다.
+      도서관에는 컴퓨터실과 <i>멀티미디어<u>multimedia</u></i>실이 있고 학생회관에는 식당과 은행, 음악감상실, 건강센터가 있습니다.
+      모두 <i>가까이<u>gần</u></i> 있어서 이용하기가 편리합니다.<br>
+      제가 한국말을 배우는 한국어학당에는 여러 나라에서 온 학생들이 많아서 다양한 친구들을 만날 수 있습니다.
+      저는 평일에 오전 9시부터 오후 1시까지 수업이 있습니다.
+      수업이 끝난 후에 저는 친구와 점심을 먹고 자주 컴퓨터실에 가서 인터넷을 합니다.
+      주 말에는 학교 운동장에서 친구들과 같이 축구나 농구를 합니다.<br>
+      한국어학당에 있으면 여러 나라를 여행하는 것 같습니다. 저는 날마다 넓고 큰 세계를 <i>만납니다<u>tiếp xúc, gặp gỡ</u></i>.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-02.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
