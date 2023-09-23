@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1><i>자연<u>thiên nhiên, tự nhiên</u></i>의 도시, 밴쿠버</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-04.jpg" alt="korean yonsei">
+    
+    <p>
+      저는 캐나다에서 왔습니다.
+      우리나라의 남쪽에는 미국이 있고 북쪽에는 알래스카와 <i>북극해<u>biển Bắc Cực</u></i>가 있습니다.
+      캐나다는 세계에서 두 번째로 큰 나라입니다.
+      그렇지만 사람들이 많지 않아서 복잡하지 않고 살기가 좋습니다.
+      제 고향은 캐나다 남서쪽에 있는 밴쿠버입니다.
+      밴쿠버의 서쪽에는 아름다운 바다가 있고 동쪽에는 로키<i>산맥<u>dãy núi</u></i>이 있습니다.
+      산과 바다가 있어서 공기가 맑고 깨끗합니다.
+      바다에 가면 <i>고래<u>cá voi</u></i>를 볼 수 있고 산에 가면 스키를 탈 수 있습니다.
+      밴쿠버에서 해마다 1월 1일에 <i>북극곰<u>gấu Bắc Cực</u></i> 수영대회가 열리면 사람들은 차가운 바닷물에서 수영을 합니다.<br>
+      제가 지금 살고 있는 서울과 제 고향 밴쿠버는 다른 것이 많습니다.
+      서울은 여름에 덥고 겨울에 추운데 밴쿠버는 여름에 날씨가 아주 좋고 겨울에 비가 많이 옵니다.
+      그리고 서울에는 밤늦게까지 문을 여는 가게들도 많고 길에 다니는 사람들도 많지만 제 고향에는 저녁에 문을 여는 가게가 많지 않아서 밤이 되면 아주 조용합니다.<br>
+      저는 제 고향에서 가족들과 함께 많은 시간을 보냈습니다.
+      그래서 '고향'을 생각하면 사랑하는 가족들이 제일 먼저 생각납니다.
+      저는 한국에 와서 가족들을 못 본 지 6개월 됐는데 방학이 되면 고향에 돌아가서 가족들을 만나고 고향 음식도 먹고 싶습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-04.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
