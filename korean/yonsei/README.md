@@ -42,3 +42,4 @@
 
 1. [나의 꿈](https://nvtidm.github.io/korean/yonsei/yonsei-2-01.html)
 2. [아름다운 우리 학교](https://nvtidm.github.io/korean/yonsei/yonsei-2-02.html)
+3. [소중한 물건](https://nvtidm.github.io/korean/yonsei/yonsei-2-03.html)
