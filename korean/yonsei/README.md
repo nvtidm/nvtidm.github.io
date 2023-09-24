@@ -44,3 +44,4 @@
 2. [아름다운 우리 학교](https://nvtidm.github.io/korean/yonsei/yonsei-2-02.html)
 3. [소중한 물건](https://nvtidm.github.io/korean/yonsei/yonsei-2-03.html)
 4. [자연의 도시, 밴쿠버](https://nvtidm.github.io/korean/yonsei/yonsei-2-04.html)
+5. [한국 사람과 떡](https://nvtidm.github.io/korean/yonsei/yonsei-2-05.html)
