@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>한국 사람과 떡</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-05.jpg" alt="korean yonsei">
+    
+    <p>
+      떡은 한국 전통 음식 중의 하나입니다.<br>
+      한국 사람들은 옛날부터 떡을 먹었습니다.
+      한국 사람들은 떡을 좋아하기 때문에 특별한 날에는 떡을 나눠 먹습니다.
+      아기가 태어난지 100일이 됐을 때와 1년이 됐을 때, 그리고 60번째 생일에 큰 잔치를 합니다.
+      이렇게 큰 잔치를 할 때마다 떡을 먹습니다.
+      해마다 설날에는 흰떡으로 만든 떡국을 먹고 추석에는 송편을 만들어서 같이 먹습니다.
+      결혼식 날에도 떡을 준비하고 이사한 날에도 이웃 사람들과 떡을 나눠 먹습니다.
+      <i>제사를 지낼</i><u>làm lễ giỗ, cúng</u> 때에도 떡을 준비합니다.<br>
+      한국에서는 '<i>붉은<u>đỏ tươi</u></i> 떡을 먹으면 나쁜 일이 생기지 않을 거예요.' 하고 생각합니다.
+      그래서 잔치를 할 때나 이사를 했을 때 붉은 떡을 먹습니다.<br>
+      떡은 건강에 좋고 맛있어서 아침이나 간식으로 먹는 사람들이 많습니다.
+      그래서 떡으로 만드는 음식도 여러 가지가 있습니다.
+      떡으로 떡국, 떡볶이, 떡라면, 떡피자 같은 음식을 만들 수 있습니다.<br>
+      여러분도 한국에 있을 때 떡을 많이 드셔 보세요.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-05.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
