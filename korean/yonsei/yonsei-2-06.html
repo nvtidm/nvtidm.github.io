@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>한국 사람과 떡</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-06.jpg" alt="korean yonsei">
+    
+    <p>
+      오늘은 제 생일이기 때문에 친구들을 만났습니다.
+      저는 친구들과 같이 케이크를 먹으려고 했는데 친구들은 이렇게 말했습니다.<br>
+      "제임스 씨, 오늘 미역국을 먹었어요?"<br>
+      "오늘은 제임스 씨 생일이니까 미역국을 먹으러 가요.
+      한국에서는 생일에 미역국을 먹는 <i>풍습<u>phong tục</u></i>이 있어요."<br>
+      그래서 우리는 한식집으로 갔습니다.
+      맛있게 미역국을 먹고 있는데 친구들은 모두 수진 씨에게 이렇게 물었습니다.<br>
+      "수진 씨, 언제 국수를 먹여 줄 거예요?"<br>
+      사람들은 계속 그 질문을 했지만 수진 씨는 대답을 하지 않고 얼굴만 빨개졌습니다.
+      그래서 저는 "수진 씨, 왜 그래요? 국수를 싫어해요?"하고 물었습니다.
+      친구들은 제 말을 듣고 모두 웃었습니다.
+      그때 다른 친구가 저에게 설명을 해 주었습니다.<br>
+      "제임스 씨, 한국에서는 결혼식 날 손님들에게 국수를 <i>대접해요<u>tiếp đãi, dọn món</u></i>."<br>
+      저는 수진 씨에게 다시 물어봤습니다.<br>
+      "수진 씨, 그럼 우리 언제 국수를 먹을 수 있어요?"<br>
+      "제임스 씨, 저 다음 달에 결혼해요." 수진 씨는 <i>부끄러워했습니다<u>xấu hổ, ngại ngùng</u></i>.<br>
+      결혼식에서 먹는 국수는 특별한 맛일 것 같습니다.
+      저는 수진 씨의 결혼식에 가서 친구들과 같이 국수를 먹고 싶습니다.
+    </p>    
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-06.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
