@@ -46,3 +46,4 @@
 4. [자연의 도시, 밴쿠버](https://nvtidm.github.io/korean/yonsei/yonsei-2-04.html)
 5. [한국 사람과 떡](https://nvtidm.github.io/korean/yonsei/yonsei-2-05.html)
 6. [특별한 날에 먹는 음식](https://nvtidm.github.io/korean/yonsei/yonsei-2-06.html)
+7. [궁중떡볶이](https://nvtidm.github.io/korean/yonsei/yonsei-2-07.html)
