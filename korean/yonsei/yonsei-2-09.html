@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>시장과 백화점</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-09.jpg" alt="korean yonsei">
+    
+    <p>
+      저는 백화점보다 시장을 더 좋아합니다.
+      시장에는 여러 가지 물건도 많고 여기저기 <i>돌아다니<u>đi xung quanh</u></i>면 좋은 물건을 싸게 살 수 있기 때문입니다.<br>
+      백화점은 보통 오전 10시 반에 문을 여는데 시장은 저녁에 문을 여는 곳도 있습니다.
+      시장은 백화점과 다르게 카드를 쓸 수 없는 곳도 있지만 현금을 내면 물건 값을 깎아 주는 곳도 있습니다.
+      물건을 산 후에 물건이 마음에 안 들어서 바꾸려면 영수증이 필요합니다.<br>
+      지난 주말에 저는 친구와 같이 옷을 사러 동대문시장에 갔습니다.
+      남대문시장에는 가 본 적이 있지만 동대문시장은 처음이었습니다.
+      밤에 가면 재미있는 공연도 보고 더 싸게 살 수 있을 것 같아서 밤에 갔습니다.
+      사람들이 쇼핑몰 앞에서 노래도 하고 춤도 추고 있었는데 아주 재미있었습니다.
+      동대문시장에는 <i>디자이너<u>designer</u></i>가 옷을 만들어서 파는 가게들이 많아서 값도 싸고 다양한 모양의 예쁜 옷들이 많았습니다.
+      배우나 가수의 얼굴 사진이 있는 티셔츠를 파는 가게도 있었습니다.<br>
+      저는 노란 모자와 제가 좋아하는 가수의 얼굴 사진이 있는 티셔츠를 샀고 친구는 하얀 블라우스와 까만색 긴 바지를 샀습니다.
+      "좀 깎아 주세요."<br>
+      "한국말도 잘 하고 많이 샀으니까 싸게 드릴게요."<br>
+      우리는 예쁜 옷을 싸게 사서 기분이 좋았습니다.
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-09.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
