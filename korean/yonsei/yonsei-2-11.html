@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>편리한 쇼핑</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-11.jpg" alt="korean yonsei">
+    
+    <p>
+      저는 지난주에 책상을 사러 학교 앞 백화점에 갔습니다.
+      백화점은 물건들을 구경하기 편했습니다.
+      그리고 점원들이 친절하게 설명을 해 줘서 좋았습니다.
+      저는 천천히 구경을 하고 마음에 드는 것을 하나 골랐습니다.
+      하지만 그 책상은 값이 너무 비싸서 살 수 없었습니다.
+      그래서 싼 것을 사려고 시장으로 갔습니다.
+      저는 시장에서 여기저기 힘들게 돌아다녔습니다.
+      저는 9시까지 구경을 했지만 마음에 드는 것이 없었습니다.
+      그래서 책상을 사지 못하고 그냥 집으로 돌아왔습니다.<br>
+      집에 돌아왔을 때는 밤 10시가 넘었습니다.
+      저는 빨리 책상을 사고 싶어서 인터넷에서 찾아봤습니다.
+      인터넷에는 여러 가지 책상이 많았습니다.
+      저는 <i>서랍<u>ngăn kéo</u></i>이 많고 값도 싼 책상을 찾았습니다.
+      이 책상을 제일 싸게 파는 사이트에 들어가서 다른 사람들이 쓴 글을 읽어 봤습니다.
+      또 여러 가지 색깔도 자세히 본 후에 <i>초록색<u>xanh lục, xanh lá cây</u></i> 책상으로 주문했습니다.<br>
+      2일 후에 책상이 집으로 배달됐습니다.
+      생각보다 빨리 와서 놀랐습니다.
+      그런데 색깔이 인터넷에서 본 것보다 더 어두웠습니다.
+      다른 책상으로 바꿀까 했지만 인터넷으로 산 것은 바꾸기가 복잡할 것 같아서 <i>그만두었습니다<u>thôi, ngừng</u></i>.
+      이제부터 저는 이 책상에서 열심히 공부하겠습니다.
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-11.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
