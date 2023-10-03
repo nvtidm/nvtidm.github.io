@@ -49,3 +49,4 @@
 7. [궁중떡볶이](https://nvtidm.github.io/korean/yonsei/yonsei-2-07.html)
 8. [음식과 문화](https://nvtidm.github.io/korean/yonsei/yonsei-2-08.html)
 9. [시장과 백화점](https://nvtidm.github.io/korean/yonsei/yonsei-2-09.html)
+10. [시장과 백화점](https://nvtidm.github.io/korean/yonsei/yonsei-2-10.html)
