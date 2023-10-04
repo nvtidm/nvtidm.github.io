@@ -51,3 +51,4 @@
 9. [시장과 백화점](https://nvtidm.github.io/korean/yonsei/yonsei-2-09.html)
 10. [시장과 백화점](https://nvtidm.github.io/korean/yonsei/yonsei-2-10.html)
 11. [편리한 쇼핑](https://nvtidm.github.io/korean/yonsei/yonsei-2-11.html)
+12. [중고품 시장](https://nvtidm.github.io/korean/yonsei/yonsei-2-12.html)
