@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>친구의 생일 파티</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-13.jpg" alt="korean yonsei">
+    
+    <p>
+      이번 주 수요일은 우리 반 친구 리에의 생일입니다.
+      저는 리에의 생일에 리에를 깜짝 놀라게 해 주고 싶습니다.
+      그래서 요즘 파티 준비를 하는데 리에가 모르게 파티를 계획 하는 것은 쉬운 일이 아닙니다.<br>
+      “이번 주 수요일이 내 생일인데 그날 시간이 있어? 같이 저녁이나 먹을까?"<br>
+      리에가 이런 말을 할 때마다 우리는 모두 잘 대답해 주지 않습니다.<br>
+      "글쎄, 요즘은 좀 바쁜데 ..."<br>
+      "잘 모르겠어. 내가 나중에 전화할게."<br>
+      이렇게 대답을 할 때 저는 <i>가슴이 두근두근합니다<u>ngực đập thình thịch</u></i>.
+      그리고 기분이 좋지 않은 얼굴을 하는 리에를 보면 웃음이 나기도 합니다.<br>
+      오늘은 선물도 예쁘게 포장하고 식당도 예약했습니다.
+      우리는 리에가 식당에 오면 <i>폭죽을 터뜨리<u>nổ pháo</u></i>고 노래를 부르려고 합니다.
+      그런데 어떻게 리에를 식당에 데리고 갈 수 있을까요?<br>
+      "리에야, 숙제가 어려운데 와서 좀 도와 줄 수 있어?"<br>
+      "리에야, 지금 친구들과 저녁을 먹을 거야. 아직 저녁을 안 먹었으면 같이 먹을까?"<br>
+      아직 좋은 방법을 생각하지 못했습니다.
+      어떻게 말하면 좋을까요?
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-1.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
