@@ -53,3 +53,4 @@
 11. [편리한 쇼핑](https://nvtidm.github.io/korean/yonsei/yonsei-2-11.html)
 12. [중고품 시장](https://nvtidm.github.io/korean/yonsei/yonsei-2-12.html)
 13. [친구의 생일 파티](https://nvtidm.github.io/korean/yonsei/yonsei-2-13.html)
+14. [친구 집 방문](https://nvtidm.github.io/korean/yonsei/yonsei-2-14.html)
