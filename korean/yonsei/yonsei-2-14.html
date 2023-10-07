@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>친구 집 방문</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-14.jpg" alt="korean yonsei">
+    
+    <p>
+      언어교환을 하는 한국 친구가 저를 집으로 초대했습니다.
+      한국 사람 집에 처음 가 보는 것이어서 며칠 전부터 기다려졌습니다.
+      그 동네에는 가 본 적이 없기 때문에 걱정이 됐는데 친구가 버스정류장에 마중 나와서 고마웠습니다.
+      친구 집에 가니까 친구 가족이 모두 저에게 반갑게 인사를 했습니다.<br>
+      저는 친구 어머니께 꽃다발을 드렸는데 친구 여동생이 꽃보다 더 예쁜 것 같았습니다.
+      미국과 다르게 한국에서는 집 안에 들어갈 때 신발을 벗어야 했습니다.
+      방에 들어가니까 상에는 맛있 는 음식이 많이 있었습니다.<br>
+      "<i>차린 것은 없지만<u>đồ không chuẩn bị được nhiều nhưng</u></i> 많이 드세요."<br>
+      "네? 음식이 정말 많은데요. 잘 먹겠습니다."<br>
+      제가 젓가락을 사용할 때 힘들어하니까 친구 어머니께서 <i>포크<u>cái dĩa</u></i>를 주셨습니다.
+      그리고 제가 고기와 생선을 잘 먹는 것을 보시고 고기와 생선을 제 앞에 놓아 주셨습니다.
+      음식을 맛있게 먹은 후에 저는 친구 가족과 같이 밤늦게까지 이야기도 하고 게임도 했습니다.
+      아주 재미있었습니다.
+      그리고 친구 아버지께서 자동차로 저를 기숙사까지 데려다 주셨습니다.<br>
+      친구 가족의 따뜻한 마음을 느낄 수 있는 좋은 시간이었습니다.
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-14.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
