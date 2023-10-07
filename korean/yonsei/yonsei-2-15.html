@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1><i>청첩장<u>thiệp cưới</u></i></h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-15.jpg" alt="korean yonsei">
+    
+    <p>
+      오랫동안 기다렸습니다.<br>
+      그리고 드디어 <i>인생의 반쪽<u>nửa kia của đời mình</u></i>을 만났습니다.<br>
+      저희 두 사람은 두 개의 반쪽으로 <i>하나의 가정<u>chung một nhà</u></i>을 이루려고 합니다.<br>
+      사랑과 믿음으로 아름다운 가정을 만들어 더 큰 사랑을 나누겠습니다.<br>
+      바쁘시겠지만 오셔서 축하해 주시면 큰 기쁨이 되겠습니다.<br>
+      김영수<br>
+      강양자<br>
+      의 <i>장남<u>trưởng nam</u></i> 준혁<br>
+      박정근<br>
+      한은실<br>
+      의 <i>차녀<u>thứ nữ</u></i> 지혜<br>
+      • 일시 : 2010년 10월 21일 목요일 저녁 6시<br>
+      • 장소 : 연세대학교 동문회관 2층
+      <div><img src="/korean/yonsei/media/yonsei-2-15-1.jpg" alt="korean yonsei"></div>
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-15.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
