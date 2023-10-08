@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>친구의 결혼식</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-16.jpg" alt="korean yonsei">
+    
+    <p>
+      2010년 6월 26일 토요일 맑음<br>
+      오늘은 제일 친한 친구인 지혜의 결혼식 날이었다.
+      제일 친한 친구가 결혼하니까 기쁘기도 하고 섭섭하기도 했다.
+      오늘 결혼식에서 내가 지혜의 <i>부케<u>bó hoa cưới</u></i>를 받기로 했는데 나는 아직 친구의 결혼식에서 부케를 받은 적이 없기 때문에 아침부터 마음이 <i>설레었다<u>nôn nao, bồn chồn</u></i>.
+      결혼식은 12시였지만 나는 지혜를 도와주려고 서둘러서 준비를 하고 일찍 집에서 나갔다.<br>
+      결혼식장에는 사람들이 아주 많아서 좀 시끄러웠다.
+      결혼식에는 신랑과 신부의 친구들보다 친척과 부모님의 친구들이 더 많이 오셨다.
+      결혼은 신랑과 신부, 두 사람이 하는 것이지만 한국에서 결혼식은 신랑 가족과 신부 가족에게 중요한 행사이기 때문이다.<br>
+      결혼식은 오래 걸리지 않았다.
+      결혼식이 끝난 후에 기념 촬영을 하고 지혜가 나에게 부케를 <i>던졌다<u>ném, tung (hoa cưới)</u></i>.<br>
+      내가 부케를 들고 있으니까 여러 사람들이 "결혼식에서 부케를 받으면 6개월 안에 결혼해야 하는데 결혼할 남자 친구가 있어요?" 하고 물었다.
+      아직 남자 친구도 없는데 부케를 받아서 걱정이다.
+      하지만 그것보다 지혜가 정말 행복하게 잘 살았으면 좋겠다.
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-16.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
