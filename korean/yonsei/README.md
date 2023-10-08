@@ -54,3 +54,4 @@
 12. [중고품 시장](https://nvtidm.github.io/korean/yonsei/yonsei-2-12.html)
 13. [친구의 생일 파티](https://nvtidm.github.io/korean/yonsei/yonsei-2-13.html)
 14. [친구 집 방문](https://nvtidm.github.io/korean/yonsei/yonsei-2-14.html)
+15. [청첩장](https://nvtidm.github.io/korean/yonsei/yonsei-2-15.html)
