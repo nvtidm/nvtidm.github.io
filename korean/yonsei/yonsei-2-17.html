@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>서울 구경</h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-17.jpg" alt="korean yonsei">
+    
+    <p>
+      나는 오늘 친구와 같이 서울 시내를 구경하는 서울 <i>도심순환버스<u>Xe bus nội thành. Chạy vòng quanh thành phố</u></i>를 탔다.
+      이 버스는 오전 9시부터 밤 9시까지 다니는데 표를 한 번 사면 하루 종일 이용할 수 있다.
+      또한 공휴일에도 탈 수 있어서 편리하다.
+      우리는 10시에 광화문에 있는 <i>면세점<u>cửa hàng miễn thuế</u></i> 앞에서 이 버스를 탔다.
+      이 버스에는 외국어 서비스가 있어서 듣고 싶은 언어로 설명을 들을 수 있다.<br>
+      "다음 정류장은 <i>국립중앙박물관<u>bảo tàng trung ương quốc gia</u></i>입니다.
+      내리실 분은 벨을 눌러 주세요. 버스는 30분 마다 있습니다."<br>
+      안내원이 한국어와 영어로 친절하게 설명해 줬다.
+      국립중앙박물관은 구경할 게 많았지만 1시간만 구경하고 다시 버스를 탔다.
+      우리는 이태원에 내려서 쇼핑도 하고 점심도 먹었다.
+      그 다음에는 한옥 마을에 가서 여기저기 구경하고 한복도 입어 보고 떡도 먹어 봤다.
+      <i>그런 다음에<u>rồi sau đó</u></i> 서울타워와 <i>대학로<u>một con đường ở Seoul</u></i>도 구경했다.<br>
+      하루에 버스나 지하철을 여러 번 갈아타고 여기저기를 구경하기가 어려운데 도심순환버스가 있어서 편리했다.
+      다음에는 다른 <i>코스<u>cung đường, lộ trình</u></i>도 구경하고 싶다.
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-17.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
