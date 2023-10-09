@@ -56,3 +56,4 @@
 14. [친구 집 방문](https://nvtidm.github.io/korean/yonsei/yonsei-2-14.html)
 15. [청첩장](https://nvtidm.github.io/korean/yonsei/yonsei-2-15.html)
 16. [친구의 결혼식](https://nvtidm.github.io/korean/yonsei/yonsei-2-16.html)
+17. [서울 구경](https://nvtidm.github.io/korean/yonsei/yonsei-2-17.html)
