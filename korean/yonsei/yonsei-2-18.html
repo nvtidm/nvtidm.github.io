@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  
+  <head>
+    <title>Idm Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nvtidm.github.io/css/koreanreading.css">
+    <script src="https://nvtidm.github.io/js/tts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    </head>
+  
+  <body>
+    <h1>지하철 <i>풍경<u>cảnh (phong cảnh)</u></i></h1>
+    
+    <!-- Image -->
+    <img src="/korean/yonsei/media/yonsei-2-18.jpg" alt="korean yonsei">
+    
+    <p>
+      많은 사람들은 지하철에서 하루를 시작합니다.
+      지하철은 버스보다 시간이 <i>정확하고<u>chính xác</u></i> 갈아타기 쉽기 때문에 지하철을 타는 사람들이 많습니다.<br>
+      한국의 지하철은 안전하고 교통 카드를 사용할 수 있어서 이용하기가 편리합니다.
+      요금도 다른 나라보다 싸고 새벽부터 밤늦게까지 이용할 수 있습니다.
+      서울에는 여러 지하철이 있는데 호선마다 색이 다르기 때문에 가고 싶은 역을 쉽게 찾을 수 있습니다.
+      그리고 안내방송이 나오기 때문에 어느 역인지 쉽게 알 수 있습니다.
+      지하철 안에는 <i>노약자<u>người già hay yếu</u></i>들만 앉는 <i>노약자석<u>ghế dành cho người ưu tiên</u></i>이 있고 젊은 사람들은 할아버지, 할머니가 타시면 <i>자리를 양보합니다<u>nhường ghế</u></i>.
+      그리고 한국에서 65세가 넘은 <i>노인들<u>người già, người cao tuổi</u></i>은 무료로 지하철을 이용할 수 있습니다.<br>
+      나는 지하철 안에서 사람들의 다양한 모습을 봅니다.
+      신문이나 책을 읽는 사람, 음악을 듣는 사람, 휴대전화로 게임을 하는 사람, <i>꾸벅꾸벅 조는 사람<u>người gật gà, gật gù (ngủ gật)</u></i>이 있습니다.
+      그리고 큰 소리로 전화를 하는 사람이 있어서 시끄러울 때도 있습니다.
+      저는 가끔 지하철 안에서 숙제를 하는데 친절하게 가르쳐 주는 한국 사람도 있습니다.<br>
+      좀 복잡하기는 하지만 한국의 여러 사람들과 여러 모습을 볼 수 있는 지하철, 서울에서 어디든지 쉽게 갈 수 있게 해 주는 지하철, 이 지하철에서 저도 많은 사람과 함께 하루를 시작합니다.
+    </p>
+
+    <!-- Audio -->
+    <div class="audio-player-wrapper">
+      <div class="audio-player-container">
+        <audio id="audioPlayer" controls class="audio-player">
+          <source src="/korean/yonsei/media/yonsei-2-18.mp3" type="audio/mpeg">
+          Trình duyệt của bạn không hỗ trợ HTML5 Audio.
+          </audio>
+        </div>
+      <!-- Các ô input để nhập thời gian A và B -->
+      <div class="audio-controls">
+        <label for="pointA">A</label>
+        <input type="number" id="pointA" min="0" max="999" value="0" step="0.1">
+        <label for="pointB">B</label>
+        <input type="number" id="pointB" min="0" max="999" value="10" step="0.1">
+        <button id="loopButton" onclick="toggleLoop()"><i class="fas fa-sync-alt"></i></button>
+        </div>
+      </div>
+
+    <!-- Khoảng cách trống bên dưới chân trang -->
+    <div class="footer-space"></div>
+    </body>
+  <script src="https://nvtidm.github.io/js/playaudio.js"></script>
+  
+</html>
