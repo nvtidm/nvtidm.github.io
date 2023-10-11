@@ -58,3 +58,4 @@
 16. [친구의 결혼식](https://nvtidm.github.io/korean/yonsei/yonsei-2-16.html)
 17. [서울 구경](https://nvtidm.github.io/korean/yonsei/yonsei-2-17.html)
 18. [지하철 풍경](https://nvtidm.github.io/korean/yonsei/yonsei-2-18.html)
+19. [가 보고 싶은 지하철역](https://nvtidm.github.io/korean/yonsei/yonsei-2-19.html)
