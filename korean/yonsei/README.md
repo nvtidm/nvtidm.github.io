@@ -59,3 +59,4 @@
 17. [서울 구경](https://nvtidm.github.io/korean/yonsei/yonsei-2-17.html)
 18. [지하철 풍경](https://nvtidm.github.io/korean/yonsei/yonsei-2-18.html)
 19. [가 보고 싶은 지하철역](https://nvtidm.github.io/korean/yonsei/yonsei-2-19.html)
+20. [교통과 생활](https://nvtidm.github.io/korean/yonsei/yonsei-2-20.html)
