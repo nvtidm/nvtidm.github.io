@@ -199,3 +199,15 @@ pi:hover > pu {
 pi:hover {
   text-decoration: underline;
 }
+
+vi {
+color: #5d617e;
+opacity: 0;
+	display: block;
+}
+
+vi:hover {
+	color: #5d617e;
+	opacity: 100;
+	display: block;
+}
